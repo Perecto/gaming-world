@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming World - Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        nav a.active {
+            font-weight: bold;
+            text-decoration: underline;
+            color: #ff6347;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 40px 20px;
+        }
+
+        .content h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #333;
+            text-align: center;
+        }
+
+        .content p {
+            font-size: 18px;
+            margin-bottom: 40px;
+            color: #555;
+            text-align: center;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gaming World</h1>
+        <nav>
+            <a href="index.html" class="active"><i class="fas fa-home"></i> Home</a>
+            <a href="featured_game.html"><i class="fas fa-star"></i> Featured Game</a>
+            <a href="accessories.html"><i class="fas fa-gamepad"></i> Gaming Accessories</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content">
+            <h2>Featured Games</h2>
+            <p>Explore the most anticipated games of 2025!</p>
+            <div class="gallery">
+                <img src="https://cdn.wccftech.com/wp-content/uploads/2023/12/GTA-VI-HD-728x409.jpg" alt="GTA 6">
+                <img src="https://www.tomsguide.fr/content/uploads/sites/2/2024/05/Assassins-Creed-Shadows.jpg" alt="Assassin's Creed Shadows">
+                <img src="https://retrododo.com/wp-content/uploads/2024/06/metroid-prime-4-beyond.webp" alt="Metroid Prime 4">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Gaming World. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+

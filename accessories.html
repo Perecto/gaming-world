@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming World - Accessories</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        nav a.active {
+            font-weight: bold;
+            text-decoration: underline;
+            color: #ff6347;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 40px 20px;
+        }
+
+        .content h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #333;
+            text-align: center;
+        }
+
+        .content p {
+            font-size: 18px;
+            margin-bottom: 40px;
+            color: #555;
+            text-align: center;
+        }
+
+        .accessory-grid {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .accessory-item {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            width: 300px;
+            text-align: center;
+        }
+
+        .accessory-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .icon-link {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .icon-link:hover {
+            color: #007bff;
+        }
+
+        .icon-link i {
+            font-size: 48px;
+            color: #007bff;
+            margin-bottom: 20px;
+            display: block;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gaming World</h1>
+        <nav>
+            <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            <a href="featured_game.html"><i class="fas fa-star"></i> Featured Game</a>
+            <a href="accessories.html" class="active"><i class="fas fa-gamepad"></i> Gaming Accessories</a>
+        </nav>
+    </header>
+
+    <main class="content">
+        <h2>Gaming Accessories</h2>
+        <p>Discover the latest gaming gear to enhance your experience.</p>
+        <div class="accessory-grid">
+            <div class="accessory-item">
+                <a href="accessory1.html" class="icon-link">
+                    <i class="fas fa-headphones"></i>
+                    <h3>Best Gaming Headsets</h3>
+                </a>
+                <p>Top-tier gaming headset for immersive audio.</p>
+            </div>
+            <div class="accessory-item">
+                <a href="accessory2.html" class="icon-link">
+                    <i class="fas fa-mouse"></i>
+                    <h3>Gaming Mouse</h3>
+                </a>
+                <p>High-performance gaming mouse for precision.</p>
+            </div>
+            <div class="accessory-item">
+                <a href="accessory3.html" class="icon-link">
+                    <i class="fas fa-keyboard"></i>
+                    <h3>RGB Mechanical Keyboard</h3>
+                </a>
+                <p>RGB mechanical keyboard for ultimate comfort.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Gaming World. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
